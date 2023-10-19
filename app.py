@@ -29,7 +29,7 @@ def predict():
     # result = {'cgpa': cgpa, 'iq': iq, 'profile_score': profile_score}
 
     # this is input
-    input_query = np.array([[cgpa, iq, profile_score]], dtype=np.float64)
+    input_query = np.array([[cgpa, iq, profile_score]])
 
     # this is output will be in the form of array
     result = model.predict(input_query)[0]
