@@ -3,6 +3,7 @@ import pickle
 
 import numpy as np
 from flask import Flask, request, jsonify
+import sklearn as sk
 
 model = pickle.load(open('model.pkl', 'rb'))
 
