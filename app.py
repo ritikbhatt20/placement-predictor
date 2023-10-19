@@ -12,7 +12,7 @@ app = Flask(__name__)
 # creating routes
 @app.route('/')
 def home():
-    return "Hello Worldddd"
+    return "Hello World here"
 
 
 # api will exist in this route
