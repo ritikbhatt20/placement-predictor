@@ -19,7 +19,7 @@ def home():
 # api will handle post request, there are 2 types of request get and post
 # in get, we take input through url... In post without url
 
-@app.route('/predictlol', methods=['POST'])
+@app.route('/predictPlacement', methods=['POST'])
 def predict():
     cgpa = request.form.get('cgpa')
     iq = request.form.get('iq')
